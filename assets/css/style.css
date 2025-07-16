@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 :root{
-  --accent-color:
-  --base-color:
-  --text-color:
-  --input-color:
+  --accent-color: purple;
+  --base-color: white;
+  --text-color: black;
+  --input-color: white;
+}
+{
+  margin: 0;
+  padding: 0;
 }
