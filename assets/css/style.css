@@ -5,7 +5,13 @@
   --text-color: black;
   --input-color: white;
 }
-{
+*{
   margin: 0;
   padding: 0;
+}
+html{
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  
 }
