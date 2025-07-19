@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 :root{
-  --accent-color: purple;
-  --base-color: white;
-  --text-color: black;
-  --input-color: white;
+  accent-color: purple;
+  base-color: white;
+  text-color: black;
+  input-color: white;
 }
 *{
   margin: 0;
@@ -11,7 +11,12 @@
 }
 html{
   font-family: "DM Serif Text", serif;
+  font-size: 12pt;
   font-weight: 400;
   font-style: normal;
-  
+  color: var(text-color)
+}
+body{
+  min-height: 100vh;
+  background-image: URL("assets/images/Oldie-Helper-Logo.png")
 }
