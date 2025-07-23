@@ -18,7 +18,7 @@ html{
 }
 body{
   min-height: 100vh;
-  background-image: url('./Oldie-Helper-Smaller-Logo.png');
+  background-image: url('oldiehelper/assets/css/Oldie-Helper-Smaller-Logo.png');
   background-size: cover;
   overflow: hidden;
 }
