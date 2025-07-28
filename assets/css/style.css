@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 :root{
   --accent-color: purple;
-  --base-color: black;
+  --base-color: white;
   --text-color: black;
   --input-color: white;
 }
@@ -68,5 +68,16 @@ form label{
   font-weight: 500;
 }
 form input{
-  
+  box-sizing: border-box;
+  flex-grow: 1;
+  min-width: 0;
+  height: 50px;
+  padding: 1em;
+  font: inherit;
+  border-radius: 0 10px 10px 0;
+  border: 2px solid var(--accent-color);
+  background-color: var(--input-color);
+}
+form input:hover{
+  border: var(--accent-color)
 }
