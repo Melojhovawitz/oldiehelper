@@ -76,7 +76,9 @@ form input{
   font: inherit;
   border-radius: 0 10px 10px 0;
   border: 2px solid var(--accent-color);
+  border-left: none;
   background-color: var(--input-color);
+  transition: 150ms ease;
 }
 form input:hover{
   border: var(--accent-color)
