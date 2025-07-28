@@ -9,7 +9,6 @@
   margin: 0;
   padding: 0;
 }
-}
 html{
   font-family: "DM Serif Text", serif;
   font-size: 12pt;
@@ -22,7 +21,6 @@ body{
   background-image: url('Oldie-Helper.png');
   background-position: center;
   background-size: cover;
-  overflow: hidden;
 }
 .wrapper{
   box-sizing: border-box;
